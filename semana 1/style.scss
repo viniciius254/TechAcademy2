@@ -1,0 +1,103 @@
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #6E98BF;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(37,38,52,1);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(37,38,52,1);
+    box-shadow: 0px 5px 10px 0px rgba(37,38,52,1);
+    img {
+        width: 30%;
+    }
+    .img-logo {
+        max-width: 70%;
+    }
+    nav {
+        
+    }
+    i {
+        transform: scale(2);
+        cursor: pointer;
+    }
+    i:hover {
+        color: white;
+    }
+    .align {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+    }
+}
+body {
+    background: linear-gradient(to right, #0C1555 10%, #44496B 50%,#9BA1C9 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: 'Poppins';
+}
+main {
+    height: 82vh;
+    h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 150px;
+    }
+    .scaled {
+        max-width: 100px;
+    }
+    h2 {
+        
+       a {
+        text-decoration: none;
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 15px;
+        color: rgb(219, 73, 14);
+      } 
+    }
+    a:hover {
+        color: red;
+        transition: 500ms;
+    }
+    h2:hover {
+        scale:1.05;
+        transition: 500ms;
+    }
+    .img_jogos {
+        padding-left: 20px;
+        padding-top: 30px;
+       
+        img {
+            height: 250px;
+            width: 300px; 
+            -webkit-box-shadow: 10px 10px 6px 0px rgba(8,11,31,1);
+            -moz-box-shadow: 10px 10px 6px 0px rgba(8,11,31,1);
+            box-shadow: 10px 10px 6px 0px rgba(8,11,31,1);
+        }
+    }
+}
+footer {
+    z-index: 99;
+    background-color: #252634;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    .icon {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

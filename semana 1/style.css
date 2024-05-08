@@ -1,0 +1,99 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: #6E98BF;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 10px 0px #252634;
+  -moz-box-shadow: 0px 5px 10px 0px #252634;
+  box-shadow: 0px 5px 10px 0px #252634;
+}
+header img {
+  width: 30%;
+}
+header .img-logo {
+  max-width: 70%;
+}
+header i {
+  transform: scale(2);
+  cursor: pointer;
+}
+header i:hover {
+  color: white;
+}
+header .align {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100px;
+}
+
+body {
+  background: linear-gradient(to right, #0C1555 10%, #44496B 50%, #9BA1C9 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins';
+}
+
+main {
+  height: 82vh;
+}
+main h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 150px;
+}
+main .scaled {
+  max-width: 100px;
+}
+main h2 a {
+  text-decoration: none;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #db490e;
+}
+main a:hover {
+  color: red;
+  transition: 500ms;
+}
+main h2:hover {
+  scale: 1.05;
+  transition: 500ms;
+}
+main .img_jogos {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+main .img_jogos img {
+  height: 250px;
+  width: 300px;
+  -webkit-box-shadow: 10px 10px 6px 0px #080b1f;
+  -moz-box-shadow: 10px 10px 6px 0px #080b1f;
+  box-shadow: 10px 10px 6px 0px #080b1f;
+}
+
+footer {
+  z-index: 99;
+  background-color: #252634;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+footer .icon {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
