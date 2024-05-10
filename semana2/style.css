@@ -4,7 +4,6 @@
   margin: 0%;
 }
 
-
 nav {
   background-color: #6E98BF;
 }
@@ -13,7 +12,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(to right, #0C1555 10%, #44496B 50%, #9BA1C9 100%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,11 +91,13 @@ body .button-29:active {
 }
 
 footer {
+  margin-top: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
   -webkit-box-shadow: 0px -10px 20px 0px #0c1555;
   -moz-box-shadow: 0px -10px 20px 0px #0c1555;
   box-shadow: 0px -10px 20px 0px #0c1555;
-  margin-top: auto;
-  padding-top: 30px;
 }
 footer .redes {
   display: flex;
