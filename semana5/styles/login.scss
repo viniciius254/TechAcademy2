@@ -1,0 +1,102 @@
+ // aqui pra baixo é o login
+ body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(to right, #0C1555 10%, #44496B 50%, #9BA1C9 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    main {
+        padding-top: 92px;
+        color: white;
+        font-family: 'Poppins', Arial;
+    }
+}
+footer {
+    margin-top: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px -10px 20px 0px #0c1555;
+    -moz-box-shadow: 0px -10px 20px 0px #0c1555;
+    box-shadow: 0px -10px 20px 0px #0c1555;
+  }
+  footer .redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  footer .redes i {
+    color: white;
+  }
+
+ .center-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.cor-login {
+    background-color: #ccc;
+    border-radius: 16px;
+    width: 300px;
+}
+.forms {
+    padding-top: 20px;
+    padding: 10px 30px;
+    label {
+        font-weight: bold;
+        color: black;
+        font-size: 24px;
+    }
+}
+.btn {
+    margin-left: 18px;
+    padding: 0%;
+}
+.registrar {
+    padding-top: 10px;
+    margin-left: 20px;
+    color: black;
+    display: flex;
+}
+.suporte, .suporte a {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
+//AQUI PRA BAIXO É O REGISTRAR
+
+
+.center-loginres {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.cor-loginres {
+    background-color: #ccc;
+    border-radius: 16px;
+    width: 300px;
+}
+.formsres {
+    padding-top: 20px;
+    padding: 10px 30px;
+    label {
+        font-weight: bold;
+        color: black;
+        font-size: 24px;
+    }
+}
+.btnres {
+    margin-left: 30px;
+    padding: 0%;
+}
+.registrarres {
+    padding-top: 10px;
+    margin-left: 20px;
+    color: black;
+}
