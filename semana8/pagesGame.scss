@@ -1,0 +1,420 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    padding: 0%;
+    margin: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(to right, #0C1555 10%, #44496B 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    main {
+        padding-top: 92px;
+        color: white;
+        font-family: 'Poppins', Arial;
+        height: 100%;
+    }
+}
+
+
+
+.crazy {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    max-height: 48px;
+    justify-content: center;
+    align-items: center;
+    h1:hover {
+        transition: 500ms;
+        border-radius: 16px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin: 0%;
+    }
+    h1 {
+        a {
+            margin: 0%;
+            text-decoration: none;
+            color: rgb(223, 75, 7); 
+        }
+    }
+}
+.button-29 {
+    width: 100%;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+.information {
+    margin-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    h4, #dots {
+        font-size: 15px;
+        filter: opacity(60%);
+    }
+    button {
+        background: transparent;
+        border: none;
+        color: white;
+    }
+}
+#more {display: none;};
+.space {
+    margin-left: 8px;
+    font-size: 20px;
+}
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px -10px 20px 0px #0c1555;
+    -moz-box-shadow: 0px -10px 20px 0px #0c1555;
+    box-shadow: 0px -10px 20px 0px #0c1555;
+  }
+  footer .redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  footer .redes i {
+    color: white;
+  }
+
+  //Daqui pra baixo é a pagina do catálogo//
+  .des {
+    margin-left: 20px;
+    padding-top: 40px;
+     h1 {
+       font-size: 22PX;  
+    }
+  }
+  .img__cata {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    img {
+        border-radius: 10px;
+    }
+  }
+.imgTLW {
+  height: 400px;
+  width: 100%;
+}
+ @media (min-width:600px) and (max-width:4000px) {
+    .des{
+      margin-left: 110px;
+    }
+    .imgTLW  img {
+      width: 50%;
+    }
+    .outroSwiper{
+        width: 60% !important;
+    }
+    .swiper__flex {
+        display: flex;
+    }
+    .card-desk {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .card-cards {
+       gap: 30px;
+    }
+    .card {
+      margin: 0 20px;
+    }
+    .tittleGame img{
+        height: 700px;
+    }
+    .outroSlide img{
+      width: 60%;
+    }
+    .border-solid {
+      display: flex;
+      border: white solid;
+      max-width: 300px;
+      border-radius: 16px;
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .telaPlan {
+      display: flex;
+      justify-content: center;
+    }
+    .cor-plan {
+      margin-top: 30px;
+      width: auto;
+    }
+    .cor-plan-2 {
+      margin-top: 30px;
+      width: auto;
+    }
+    .cor-plan-2 h1 {
+      background-color: #FFFF01;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0% 44px;
+    }
+    .cor-plan h1{
+      background-color: #014ba0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0% 20px;
+    }
+    .cor-plan-3 {
+      margin-top: 30px;
+      width: auto;
+    }
+    .cor-plan-3 h1 {
+      background-color: #ff0000;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0% 44px;
+    }
+ }
+ 
+
+
+
+ // aqui pra baixo formatação dos planos do meu serviços
+
+ .plans__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .center-login {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.cor-login {
+  background-color: #ccc;
+  border-radius: 16px;
+  width: 300px;
+}
+.forms {
+  padding-top: 20px;
+  padding: 10px 30px;
+  label {
+      font-weight: bold;
+      color: black;
+      font-size: 24px;
+  }
+}
+.btn {
+  margin-left: 18px;
+  padding: 0%;
+}
+.registrar {
+  padding-top: 10px;
+  margin-left: 20px;
+  color: black;
+  display: flex;
+}
+.suporte, .suporte a {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+//AQUI PRA BAIXO É O REGISTRAR
+
+
+.center-loginres {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+.cor-loginres {
+  background-color: #ccc;
+  border-radius: 16px;
+  width: 300px;
+}
+.formsres {
+  padding-top: 20px;
+  padding: 10px 30px;
+  label {
+      font-weight: bold;
+      color: black;
+      font-size: 24px;
+  }
+}
+.btnres {
+  margin-left: 30px;
+  padding: 0%;
+}
+.registrarres {
+  padding-top: 10px;
+  margin-left: 20px;
+  color: black;
+}
+
+// aqui pra baixo é suporte
+
+.cor-suporte {
+  background-color: #0c1555;
+}
+.sup-cen {
+  margin-top: 30px;
+  h3 {
+    margin-left: 20px;
+  }
+}
+.pai, .pai a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+.mgdown {
+  margin-bottom: 50px;
+}
+.suporte {
+  margin-bottom: 60px;
+}
+//formatando o planos 
+.cor-plan {
+  margin-top: 30px;
+  width: auto;
+}
+.cor-plan-2 {
+  margin-top: 30px;
+  width: auto;
+}
+.cor-plan-2 h1 {
+  background-color: #FFFF01;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cor-plan h1{
+  background-color: #014ba0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.border-solid {
+  border: white solid;
+  max-width: 300px;
+  border-radius: 16px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.cor-plan-3 {
+  margin-top: 30px;
+  width: auto;
+}
+.cor-plan-3 h1 {
+  background-color: #ff0000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 44px;
+}
+.imgMain {
+  display: flex;
+  & img {
+    width: 100%;
+    height: 500px;
+  }
+  width: 65%;
+}
+.manage {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+.marginBor {
+  margin: 0 100px;
+}
+.imgMain2 {
+  display: flex;
+  & img {
+    width: 100%;
+    height: 300px;
+  }
+  width: 100%;
+}
+.title2 {
+  margin-left: 12px;
+}
+.space-footer {
+  margin-bottom: 40px;
+}
